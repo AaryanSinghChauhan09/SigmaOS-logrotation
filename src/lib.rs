@@ -8,6 +8,9 @@
 
 /// Errors raised by this component.
 pub mod sigmalogrotationmanager;
+
+/// Log rotation daemon module.
+pub mod sigmalogrotate;
 #[derive(Debug, thiserror::Error)]
 pub enum ComponentError {
     /// The requested operation is not supported by this component yet.
